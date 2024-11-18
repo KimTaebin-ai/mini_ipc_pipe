@@ -6,14 +6,13 @@
 /*   By: taebkim <taebkim@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/01 15:03:31 by taebkim           #+#    #+#             */
-/*   Updated: 2024/11/17 16:54:38 by taebkim          ###   ########.fr       */
+/*   Updated: 2024/11/18 06:50:26 by taebkim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include "get_next_line.h"
 # include <stdlib.h>
 # include <unistd.h>
 

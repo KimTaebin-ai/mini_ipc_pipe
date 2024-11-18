@@ -6,21 +6,21 @@
 #    By: taebkim <taebkim@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/17 23:16:48 by taebkim           #+#    #+#              #
-#    Updated: 2024/11/17 23:23:11 by taebkim          ###   ########.fr        #
+#    Updated: 2024/11/18 08:49:44 by taebkim          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = pipex
 
-BO_NAME = 
+BO_NAME = pipex_bonus
 
-SRC = main.c
+SRC = main.c utils.c
 
 SRCS = $(addprefix src/, $(SRC))
 
-BNS_SRC = 
+BNS_SRC = main_bonus.c utils_bonus.c
 
-BNS_SRCS = $(addprefix bonus/, $(BNS_SRC))
+BNS_SRCS = $(addprefix bonus/, $(BNS_SRC)) $(addprefix src/, utils.c)
 
 OBJ_DIR = obj
 
